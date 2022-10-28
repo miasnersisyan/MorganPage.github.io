@@ -1,0 +1,243 @@
+.w2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px ;
+    align-items: center;
+  
+    .likesSp1{
+      font-size: 17px;
+      color: #3b3940;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+      margin-left: 50px;
+    }
+  
+    .w2home{
+      border-bottom:3px solid #f0a951 ;
+    }
+  
+    .w2d1{
+      width: auto;
+      position: relative;
+      margin: 0px 25px;
+      padding: 15px 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+  
+      
+  
+      .w2d1posDiv{
+         position: absolute;
+        
+         left: -80px;
+         top: 73px;
+         transition: 0.5s;
+         padding: 40px;
+         width: auto;
+         background: #3b3940;
+         z-index: -1;
+         opacity: 0;
+         transform: translateY(30px);
+         display: flex;
+      }
+      
+  
+      &:hover .w2d1posDiv{
+        opacity: 1;
+        z-index: 10;
+        transform: translateY(0px);
+      }
+  
+      .w2d1posDivpages{
+        left: -400% !important;
+        }
+  
+  
+      .icon-ctrl{
+        font-size: 19px;
+        transform: rotate(180deg);
+        color: #3b3940 !important;
+        transition: 0.5s;
+  
+      }
+  
+      
+      &:hover .icon-ctrl{
+        transform: rotate(0deg);
+        transition: 0.5s;
+      }
+  
+  
+  
+      &::before{
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        background-color: #f0a951;
+        transition: 0.5s;
+        content: '';
+        left: 0;
+        bottom: -3px;
+  
+      }
+  
+      &:hover::before{
+       width: 100%;
+       transition: 0.5s;
+      }
+  
+     
+      .w2d1sp1{
+       
+        cursor: pointer;
+        text-decoration: none;
+        color: #3b3940;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        font-weight: 400;
+      font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+      text-transform: uppercase;
+      
+  
+        &:hover{
+          color: #f0a951;
+          transition: 0.5s;
+        }
+  
+  
+        
+      }
+  
+    }
+  }
+
+
+  .w2change{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0px 3px 15px -7px #000000;
+  
+    .likesSp1{
+      font-size: 17px;
+      color: #3b3940;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+      margin-left: 50px;
+    }
+  
+    .w2home{
+      border-bottom:3px solid #f0a951 ;
+    }
+  
+    .w2d1{
+      width: auto;
+      position: relative;
+      margin: 0px 25px;
+      padding: 15px 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+  
+      
+  
+      .w2d1posDiv{
+         position: absolute;
+        
+         left: -80px;
+         top: 73px;
+         transition: 0.5s;
+         padding: 40px;
+         width: auto;
+         background: #3b3940;
+         z-index: -20;
+         opacity: 0;
+         transform: scale(0);
+         display: flex;
+  
+      }
+      
+  
+      &:hover .w2d1posDiv{
+        opacity: 1;
+        z-index: 10;
+        transform: scale(1);
+      }
+  
+      .w2d1posDivpages{
+        left: -400% !important;
+        }
+  
+  
+      .icon-ctrl{
+        font-size: 19px;
+        transform: rotate(180deg);
+        color: #3b3940 !important;
+        transition: 0.5s;
+  
+      }
+  
+      
+      &:hover .icon-ctrl{
+        transform: rotate(0deg);
+        transition: 0.5s;
+      }
+  
+  
+  
+      &::before{
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        background-color: #f0a951;
+        transition: 0.5s;
+        content: '';
+        left: 0;
+        bottom: -3px;
+  
+      }
+  
+      &:hover::before{
+       width: 100%;
+       transition: 0.5s;
+      }
+  
+     
+      .w2d1sp1{
+        text-decoration: none;
+        cursor: pointer;
+        color: #3b3940;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        font-weight: 400;
+      font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+      text-transform: uppercase;
+      
+  
+        &:hover{
+          color: #f0a951;
+          transition: 0.5s;
+        }
+  
+  
+        
+      }
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  

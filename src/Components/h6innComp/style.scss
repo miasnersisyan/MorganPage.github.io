@@ -1,0 +1,29 @@
+.h6box1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .h6box1img1{
+        width: 160px;
+        margin-right: 30px;
+    }
+
+    .h6box-1{
+        .h6box1link1{
+            text-decoration: none;
+            font-weight: 700;
+            color: #ca7711;
+            line-height: 1.55556;
+            font-family: Martel, Helvetica, Arial, sans-serif;
+        }
+
+        .h6box1p1{
+            font-size: 14px;
+            color: #9e9ea0;
+            font-family: Martel, Helvetica, Arial, sans-serif;
+            line-height: 1.75;
+            margin-top: 10px;
+        }
+    }
+}

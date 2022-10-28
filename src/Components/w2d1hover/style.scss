@@ -1,0 +1,37 @@
+.w2d1hoverDiv{
+    min-width: 300px;
+    width: auto;
+    display: block;
+    list-style: none;
+    padding: 0;
+
+    .w2d1hovsp1{
+        font-weight: 400;
+        line-height: 42px;
+        width: 100%;
+        color: #cacacd;
+        font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+        font-size: 16px;
+        transition: 0.5s;
+        transform: translateX(-20px);
+        &:hover{
+            transform: translateX(0px);
+            transition: 0.5s;
+        }
+
+        .w2d1hovsp2{
+            color: #cacacd;
+            font-size: 19px;
+            margin-right: 20px;
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+       
+
+        &:hover .w2d1hovsp2{
+            opacity: 1;
+            transition: 0.5s;
+        }
+    }
+}

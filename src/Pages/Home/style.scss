@@ -1,0 +1,597 @@
+.w1{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #f6f6f8;
+    margin: 0 auto;
+
+    .w1d1{
+      width: auto;
+      display: flex;
+
+      .w1sp1{
+        margin: 0px 15px;
+        display: flex;
+        align-items: center;
+
+       .icon1{
+        font-size: 20px;
+        color: #f0a951;
+        margin-right: 12px;
+       }
+
+       .link1{
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 16px;
+        font-family: 'Martel', serif;
+        color: #5f5f61;
+
+        &:hover{
+            color: #f0a951;
+            transition: 0.5s;
+          }
+       }
+      }
+
+      
+      
+     
+}
+
+.w1d2{
+  .icon2div{
+    width: auto;
+    display: flex;
+    margin-right: 100px;
+
+    .icon2{
+        color: #cacacd;
+        font-size: 19px;
+        cursor: pointer;
+        margin: 0px 15px;
+
+        &:hover{
+            color: #f0a951;
+        transition: 0.5s;
+        }
+  }
+
+
+}
+
+
+.searchiconDiv{
+
+  .searchInpDiv{
+    position: absolute;
+    right: -10px;
+    top: 200%;
+    width:550px;
+    transition: 0.5s;
+    height: 62px;
+    overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px -1px #000000;
+    z-index: -1;
+    opacity: 0;
+    transform: translateX(-40px);
+
+
+
+    .searchInp{
+      width:100%;
+      height: 100%;
+      border: none;
+      transition: 0.5s;
+      font-size: 17px;
+      font-family:  Montserrat, Georgia, "Times New Roman", Times, serif;
+      padding-left: 20px;
+
+      &:focus-visible{
+        outline: none;
+      }
+    }
+
+
+
+
+
+
+    .searchBtn{
+      position: absolute;
+      top: 0;
+      right: -2px;
+      z-index: 2;
+      padding: 0px 45px;
+      height: 100%;
+     
+    }
+
+  }
+
+.iconsearch{
+  font-size: 19px;
+  cursor: pointer;
+  color: #f0a951;
+  transition: 0.5s;
+  position: relative;
+
+
+
+
+
+
+
+
+  &:hover{
+    color: #5f5f61;
+    transition: 0.5s;
+  }
+}
+
+}
+
+
+}
+}
+
+
+.img1{
+  max-height: 48px;
+    width: auto;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+
+
+.w3{
+  display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 90vh;
+    width: 100%;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &::before{
+      content: '';
+     z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(47, 44, 47, 0.4);
+    }
+
+    .w3img1link{
+      position: static;
+      z-index: 2;
+      width: 42%;
+
+      .w3img1{
+        width: 100%;
+      }
+    }
+}
+
+
+.w4{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 110px 0px;
+  width: 100%;
+
+
+  .w4-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .w4-1d1{
+      width: 48%;
+
+      .w4ver1{
+        line-height: 1.22727;
+        font-size: 44px;
+        font-weight: 800;   
+        font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+        color: #3b3940;
+
+      }
+
+      .btn2{
+        border: 3px solid #f0a951 !important;
+        color: #f0a951 !important;
+        padding: 14px 70px !important;
+        background: white ;
+        font-weight: 700 !important;
+        margin-top: 30px !important;
+
+        .btn2Hov1{
+          background-color: #f0a951;
+        }
+
+        &:hover{
+          color: white !important;
+          transition: 0.5s;
+        }
+      }
+
+      .w4p1{
+        margin-top: 43px;
+        font-family: Martel, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #5f5f61;
+      }
+    }
+    .w4-1d2{
+      width: 42%;
+
+
+      .w4img1{
+        width: 100%;
+      }
+    }
+    
+  }
+}
+
+
+.w5{
+  width: 100%;
+  padding: 110px 0px;
+  
+  background-color: #f1f1f1;
+  .G-center{
+    .btn3{
+      padding: 15px 55px;
+      margin-top: 55px;
+    }
+  }
+
+  
+
+  .w5-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+
+    .w5-1d1{
+      width: 31%;
+    }
+  }
+}
+
+.w6{
+  width: 100%;
+  padding: 110px 0px;
+  background-color: white;
+
+  .G-center{
+    .w6p1{
+      margin-top: 43px;
+      text-align: center;
+      font-family: Martel, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: #5f5f61;
+      width: 40%;
+    }
+
+
+    .w6-1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+  }
+
+}
+
+.w7{
+  width: 100%;
+  padding:110px 0px;
+  background-color: #f1f1f1;
+
+  .w7-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+  }
+
+  .G-center{
+    .btn2{
+      border: 3px solid #f0a951 !important;
+      color: #f0a951 !important;
+      padding: 14px 70px !important;
+      background: white ;
+      font-weight: 700 !important;
+      margin-top: 30px !important;
+
+      .btn2Hov1{
+        background-color: #f0a951;
+      }
+
+      &:hover{
+        color: white !important;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  
+}
+
+
+.w8{
+  width: 100%;
+  padding: 90px 0px;
+  background-color:#3b3940;
+  display: flex;
+  justify-content: center;
+
+  .w8-1{
+
+    .w8p4{
+      font-size: 14px;
+      color: #9e9ea0;
+      font-family: Martel, Helvetica, Arial, sans-serif;
+      margin-top: 30px;
+    line-height: 1.75;
+    }
+
+
+    .w8-2{
+      width: 100%;
+      display: flex;
+
+      .w8-2d1{
+        width:25%;
+        padding-right: 50px;
+
+        .w8iconsp{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .w8icon1{
+            font-size: 20px;
+            color: #9e9ea0;
+            cursor: pointer;
+            transition: 0.5s;
+            margin-top: 23px;
+
+            &:hover{
+              color: #f0a951;
+              transition: 0.5s;
+            }
+          }
+        }
+
+        .w8p2{
+          margin-top: 23px;
+          display: flex;
+          align-items: center;
+         .w8icon{
+          font-size: 22px;
+          color: white;
+         }
+
+         .w8link1{
+          text-decoration: none;
+          font-family: Martel, Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.75;
+          color: #9e9ea0;
+          margin-left: 10px;
+          transition: 0.5s;
+
+          &:hover{
+            color: #f0a951;
+            transition: 0.5s;
+          }
+
+         }
+
+
+        }
+
+        .w8p1{
+          margin-top: 23px;
+          color: #9e9ea0;
+          font-family: Martel, Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          line-height: 1.75;
+        
+        }
+
+        .w8ver1{
+          color: #fff;
+          line-height: 1.33333;
+          font-size: 24px;
+          font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+          font-weight: 400;
+        }
+
+        .gallerdiv{
+          
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+          .galleryd1{
+            width:48%;
+            margin-top: 10px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+
+            &:hover .galleryOpnsp{
+               top: 0px;
+               left: 0px;
+               transition: 0.5s;
+            }
+
+            .galleryImg1{
+              width: 100%;
+            }
+
+            .galleryOpnsp{
+              width: 30px;
+              height: 30px;
+              background-color: #f0a951;
+              color: white;
+              border: none;
+              cursor: pointer;
+              position: absolute;
+              top:-30px;
+              left:-30px;
+              transition: 0.5s;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.galleryDiv{
+  width:100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  top:0px;
+  left:0;
+  z-index: -2;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.5s;
+
+  .galleryw1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px;
+
+    .galleryw1d1{
+      width: auto;
+      display: flex;
+
+      .galleryp1{
+        color: #9e9ea0;
+        font-size: 20px;
+        font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+          font-weight: 400;
+          letter-spacing: 4px;
+          
+      }
+
+      .galleryControlspn{
+        color: #9e9ea0;
+        font-size: 20px;
+        cursor: pointer;
+        margin: 0px 15px;
+      }
+    }
+  }
+
+  .galleryw2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .imgscrollspn{
+      color: #9e9ea0;
+        font-size: 25px;
+        cursor: pointer;
+        margin: 0px 15px;
+        transition: 0.5s;
+
+        &:hover{
+          color: #f0a951;
+          transition: 0.5s;
+        }
+    }
+
+    .galleryImgdivParent{
+      width:60%;
+      height: 90vh;
+      overflow: hidden;
+
+      .galleryImgdiv{
+         width: 400%;
+         height: 100%;
+         display: flex;
+         transition: 0.5s;
+         transform: translateX(-0%);
+
+
+         .galleryImg1{
+          width:25%;
+          height: 100%;
+          object-fit: cover;
+          transition: 0.5s;
+         }
+      }
+    }
+  }
+
+
+  .galleryw3{
+    position: absolute;
+    width:100%;
+    left:0;
+    bottom: 0;
+    padding:13px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    transition: 0.5s;
+
+    .gallersmallimg{
+      width: 90px;
+      height: 70px;
+    border-radius: 6px;
+      margin: 0px 10px;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+
+    .xbtn{
+      position: absolute;
+      width:50px;
+      height: 50px;
+      border: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      top:-50px;
+      right:50px;
+      font-size: 20px;
+    }
+  }
+}

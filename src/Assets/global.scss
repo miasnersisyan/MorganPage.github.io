@@ -1,0 +1,133 @@
+@import url('../Assets/icons/style.css');
+
+*{
+    margin: 0;
+}
+
+.G-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.G-homemaindiv{
+  width: 65%;
+  max-width: 1850px;
+}
+
+.G-w5ver1{
+  text-align: center;
+  font-size: 44px;
+      font-weight: 800;   
+      font-family: Montserrat, Georgia, "Times New Roman", Times, serif;
+      color: #3b3940;
+}
+
+
+
+.G-mainBtn{
+   
+    padding: 20px 45px;
+   
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background: #f0a951;
+    color: white;
+    font-size: 21px;
+    font-family: Montserrat, Georgia, "Times New Roman", Times, serif; 
+    overflow: hidden;
+
+
+    .G-posSp1{
+      position: relative;
+      z-index: 3;
+    }
+
+
+    .G-spnBtnHov1{
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      background-color: #3b3940;
+      transition: 0.5s;
+      z-index: 1;
+      top: -100%;
+      left: -100%;
+
+    }
+    .G-spnBtnHov2{
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      background-color: #3b3940;
+      transition: 0.5s;
+      z-index: 1;
+      top: -100%;
+      right: -100%;
+
+    }
+    .G-spnBtnHov3{
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      background-color: #3b3940;
+      transition: 0.5s;
+      z-index: 1;
+      bottom: -100%;
+      left: -100%;
+
+    }
+    .G-spnBtnHov4{
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      background-color: #3b3940;
+      transition: 0.5s;
+      z-index: 1;
+      bottom: -100%;
+      right: -100%;
+
+    }
+    
+    
+
+    &:hover .G-spnBtnHov1{
+      top: 0;
+      left: 0;
+      transition: 0.5s;
+    }
+    &:hover .G-spnBtnHov2{
+      top: 0;
+      right: 0;
+      transition: 0.5s;
+    }
+    &:hover .G-spnBtnHov3{
+      bottom: 0;
+      left: 0;
+      transition: 0.5s;
+    }
+    &:hover .G-spnBtnHov4{
+      bottom: 0;
+      right: 0;
+      transition: 0.5s;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
